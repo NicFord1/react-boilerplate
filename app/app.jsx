@@ -1,15 +1,15 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 
 //Load Foundation
 $(document).foundation();
 
 //App CSS
-require('applicationStyles');
+require('app/styles/app.scss');
 
 //Main App Code
 ReactDOM.render(
-  <p>Boilerplate 3 Project</p>,
+  <p>Boilerplate 4 Project</p>,
   document.getElementById('app')
 );
